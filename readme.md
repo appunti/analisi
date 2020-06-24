@@ -2,8 +2,8 @@
 
 Repository contenente vari appunti e formulari necessari per Analisi. Si può trovare una tabella dei contenuti [qui.](/lezioni/00_lista_argomenti.md)
 
-![Pre Commit](https://github.com/appunti/template/workflows/Pre%20Commit/badge.svg)
-![Generate PDF](https://github.com/appunti/template/workflows/Generate%20PDF/badge.svg)
+![Pre Commit](https://github.com/appunti/analisi/workflows/Pre%20Commit/badge.svg)
+![Generate PDF](https://github.com/appunti/analisi/workflows/Generate%20PDF/badge.svg)
 
 Description
 
