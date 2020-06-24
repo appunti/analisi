@@ -1,0 +1,19 @@
+name: Generate PDF
+on:
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get install pandoc texlive
+      - name: Generate PDF
+        run: >
+          pandoc $(find lezioni -name "*.md" | sort -n ) -o output.pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: output.pdf
+          path: output.pdf
